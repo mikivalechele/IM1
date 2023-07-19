@@ -1,0 +1,35 @@
+    /* Estilos para o alinhamento à esquerda */
+    #beats-container {
+      text-align: left;
+    }
+
+    #anuncio-inicio {
+      display: inline-block;
+      /* Outros estilos, como margens, tamanhos, etc. */
+    }
+
+    #imagem-centro {
+      /* Estilos para posicionar a imagem no centro */
+      text-align: center;
+    }
+
+    #titulo-vermelho {
+      /* Estilos para a cor do título */
+      color: #FF0000; /* Vermelho como exemplo */
+    }
+
+    /* Estilos para a imagem */
+    #imagem-centro img {
+      width: 100%; /* Define a largura da imagem como 100% */
+      max-width: 800px; /* Defina o tamanho máximo da imagem */
+      height: auto; /* A altura será ajustada proporcionalmente ao redimensionamento */
+      display: block; /* Impede que a imagem seja tratada como inline, permitindo o uso de margens e tamanhos */
+      margin: 0 auto; /* Centraliza a imagem horizontalmente */
+    }
+
+    /* Media Query para tornar a imagem responsiva em telas menores */
+    @media (max-width: 600px) {
+      #imagem-centro img {
+        max-width: 100%; /* Define a largura máxima da imagem para ocupar toda a largura da tela em telas menores */
+      }
+    }

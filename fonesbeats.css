@@ -21,7 +21,7 @@
     /* Estilos para a imagem */
     #imagem-centro img {
       width: 100%; /* Define a largura da imagem como 100% */
-      max-width: 800px; /* Defina o tamanho máximo da imagem */
+      max-width: 266px; /* Defina o tamanho máximo da imagem */
       height: auto; /* A altura será ajustada proporcionalmente ao redimensionamento */
       display: block; /* Impede que a imagem seja tratada como inline, permitindo o uso de margens e tamanhos */
       margin: 0 auto; /* Centraliza a imagem horizontalmente */
